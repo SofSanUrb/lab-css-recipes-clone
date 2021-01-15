@@ -5,5 +5,55 @@ h1, body, html, main {
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
 }
+
+
+
+body {
+  margin: 0;
+  font-family: 'Geneva', sans-serif;
+  color: #4e4e4e;
+  padding-bottom: 4em;
+}
+.headerDiv {
+  text-align: center;
+  background: url("../images/soup.jpg") center no-repeat;
+  background-size: cover;
+  height: 70px;
+  color: white;
+  font-size: 2em;;
+  padding: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.description {
+  padding: 30px 50px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:50px;
+}
+.recipeInfo {
+  height: 70px;
+}
+
+.cookingInfo {
+  height: 100px;
+}
+
+ul li {
+  list-style-type: '-'
+}
+
+hr{
+  margin: 20px auto 30px auto;
+}
+
+
